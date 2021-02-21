@@ -94,16 +94,9 @@ abstract class AdicionarAlista {
   }
 
 
-  class Homem extends paiSerHumano with ComportamentodoHomem, PedirNome, PedirSexo, AdicionarAlista {
+  class Homem extends paiSerHumano with ComportamentodoHomem, PedirNome, PedirSexo, AdicionarAlista {}
 
-
-  }
-
-
-
-  class Mulher extends paiSerHumano with ComportamentoaMulher, ComportamentodoHomem, AdicionarAlista {
-
-  }
+  class Mulher extends paiSerHumano with ComportamentoaMulher, ComportamentodoHomem, AdicionarAlista {}
 
   main() {
     Homem h = Homem();
